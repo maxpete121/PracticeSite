@@ -7,6 +7,7 @@ export class HighTier{
     constructor(data){
         this.name = data.name
         this.price = data.price
+        this.buildType = data.buildType
         this.description = data.description
         this.imgUrl = data.imgUrl
         this.specs = data.specs
