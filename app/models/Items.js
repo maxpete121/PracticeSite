@@ -9,6 +9,7 @@ export class Items{
         this.price = data.price
         this.description = data.description
         this.imgUrl = data.imgUrl
+        this.specs = data.specs
         this.specsId = data.specsId
     }
 
