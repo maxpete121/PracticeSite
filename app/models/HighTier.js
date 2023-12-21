@@ -15,7 +15,7 @@ export class HighTier{
 
     get tierTemplate(){
         return`
-        <div class="card col-3">
+        <div class="card col-2 m-1">
         <img class="w-75 h-50" src="${this.imgUrl}">
         <h3>${this.name}</h3>
         <h6>${this.description}</h6>
