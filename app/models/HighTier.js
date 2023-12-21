@@ -15,7 +15,7 @@ export class HighTier{
 
     get tierTemplate(){
         return`
-        <div class="card col-2 m-1">
+        <div class="card col-2 m-1 text-center">
         <img class="w-75 h-50" src="${this.imgUrl}">
         <h3>${this.name}</h3>
         <h6>${this.description}</h6>
@@ -30,6 +30,9 @@ export class HighTier{
         <span class="d-flex align-items-center">
         <h5>RAM:</h5>
         <h6>${this.specs[0].ram}</h6>
+        </span>
+        <span>
+        <button>Add To Cart</button>
         </span>
         </div>
         `
