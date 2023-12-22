@@ -1,1 +1,19 @@
 /* BASIC STYLES HERE */
+.bg-top{
+    background-image: url(https://wallpaperwaifu.com/wp-content/uploads/2021/03/asus-rog-city-pixel-thumb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.build-card{
+    background-color: black;
+    height: 200px;
+    border-radius: 20px;
+    outline: thick solid rgb(71, 0, 80);
+}
+
+
+.inside-build-card{
+    background-color: white;
+}
